@@ -1,5 +1,7 @@
 # M03 UF5 AC3: GUI EN C#
 
+## URL del repositorio
+
 ## Biblografía
 
 -No han sigut requerides consultes a págines web
@@ -69,4 +71,5 @@ namespace TuNombreDeProyecto
     }
 }
 ```
+Encara que aquest codi es utilitzat majoritariament al programa, s'ha tingut que crear un altre métode per poder obviar les comes extra que es troben a la tercera columna de les dades de tot l'arxiu CSV
 
