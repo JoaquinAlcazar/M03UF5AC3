@@ -17,7 +17,7 @@ Estoy trabajando en una aplicación de Windows Forms, y se requiere que pase los
 //Nota: vaig estar 3 hores a classe intentant-ho pero no sortía res
 
 Resposta:
-´´cSharp
+```
 using System;
 using System.Data;
 using System.IO;
@@ -68,6 +68,5 @@ namespace TuNombreDeProyecto
         }
     }
 }
-
-´´
+```
 
