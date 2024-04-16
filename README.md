@@ -2,7 +2,7 @@
 
 ## URL del repositorio
 
-Ya estás en el si estás leyendo pero, [aquí lo tienes](https://github.com/JoaquinAlcazar/M03UF5AC3).
+Ya estás en el si estás leyendo esto pero, [aquí lo tienes](https://github.com/JoaquinAlcazar/M03UF5AC3).
 
 
 ## Biblografía
