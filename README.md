@@ -6,5 +6,6 @@
 
 ## IAs Consultades
 -GitHub Copilot (autocompletació)
+
 -ChatGPT:
   Exemples de prompts
