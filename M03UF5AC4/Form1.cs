@@ -1,9 +1,12 @@
 using System.ComponentModel;
 using System.Data;
+using dao.DTOs;
 using System.Data.Common;
 using System.Windows.Forms;
+using dao.Persistence.Mapping;
+using dao.Persistence.Utils;
 
-namespace M03UF5AC3
+namespace M03UF5AC4
 {
     public partial class Form1 : Form
     {
@@ -135,8 +138,51 @@ namespace M03UF5AC3
             {
                 writer.WriteLine(lineToAdd);
             }
-            
+
             CargarDatosDesdeCSV(filePath);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ConsumDAO consumdao = new ConsumDAO(NpgsqlUtils.OpenConnection());
+                var nuevaComarca = new consumDTO(
+                    Convert.ToInt32(comboBox1.Text), 
+                    22, 
+                    comboBox2.Text, 
+                    Convert.ToInt32(textBox1.Text), 
+                    Convert.ToInt32(textBox2.Text), 
+                    Convert.ToInt32(textBox3.Text), 
+                    Convert.ToInt32(textBox4.Text), 
+                    Convert.ToDecimal(textBox5.Text));
+                try
+                {
+                    consumdao.AddContact(nuevaComarca);
+                    MessageBox.Show("Dades guardades correctament a la base de dades", "Guardat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
