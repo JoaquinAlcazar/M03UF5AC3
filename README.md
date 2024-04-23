@@ -5,16 +5,16 @@
 Ya estás en el si estás leyendo esto pero, [aquí lo tienes](https://github.com/JoaquinAlcazar/M03UF5AC3).
 
 
-## Biblografía
+## Bibliografía
 
 -No han sigut requerides consultes a págines web
 
-## IAs Consultades
--GitHub Copilot (autocompletació)
+## IAs Consultadas
+-GitHub Copilot (autocompletación)
 
 -ChatGPT:
 
-Exemples de prompts utilitzades:
+Ejemplos de prompts utilizadas:
 
 
 "Hola ChatGPT, soy yo otra vez. Te explico la movida:
