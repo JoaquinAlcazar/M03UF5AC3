@@ -2,22 +2,15 @@
 
 ## URL del repositorio
 
-Ya estás en el si estás leyendo esto pero, [aquí lo tienes](https://github.com/JoaquinAlcazar/M03UF5AC3).
+Ya estás en el si estás leyendo esto pero, [aquí lo tienes]([https://github.com/JoaquinAlcazar/M03UF5AC3](https://github.com/JoaquinAlcazar/M03UF5AC3-AC4/tree/AC4)).
 
 
 ## Bibliografía
 
--No han sigut requerides consultes a págines web
+-No han sido requeridas consultas a páginas web
+
+-Compañeros de clase (Si eso computa)
 
 ## IAs Consultadas
 -GitHub Copilot (autocompletación)
-
--ChatGPT:
-
-Ejemplos de prompts utilizadas:
-
-
-"Hola ChatGPT, soy yo otra vez. Te explico la movida:
-Estoy trabajando en una aplicación de Windows Forms, y se requiere que pase los datos de un archivo CSV a un dataGridView de Windows Forms."
-//Nota: vaig estar 3 hores a classe intentant-ho pero no sortía res
 
