@@ -1,4 +1,4 @@
-### Disclaimer, hay un error desconocido que causa que la conversión del consumo doméstico por cápita no se convierta bien (solo sucede al usar números con decimales (por alguna razón))
+### Disclaimer: hay un error desconocido que causa que la conversión del consumo doméstico por cápita no se convierta bien (solo sucede al usar números con decimales (por alguna razón))
 
 # M03 UF5 AC4: PERSISTENCIA EN C#
 
